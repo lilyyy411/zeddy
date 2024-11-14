@@ -1,0 +1,26 @@
+[package]
+name = "zeddy"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/4gboframram/zeddy"
+
+[dependencies]
+anyhow = "1.0.92"
+bimap = "0.6.3"
+clap = { version = "4.5.20", features = ["derive", "cargo", "unicode"] }
+# bad. TODO: rewrite this damn crate
+colornamer = "1.0.1"
+dirs = "5.0.1"
+human-panic = "2.0.2"
+knus = "3.2.0"
+log = "0.4.22"
+miette = { version = "5.1.1", features = ["fancy"] }
+multimap = { version = "0.10.0", default-features = false }
+notify = "7.0.0"
+palette = "0.7.6"
+pathdiff = "0.2.2"
+pretty_env_logger = { version = "0.5.0", default-features = false }
+serde = { version = "1.0.214", features = ["derive"] }
+serde-aux = { version = "4.5.0", default-features = false }
+serde_json = "1.0.132"
+serde_with = "3.11.0"
