@@ -2,7 +2,7 @@
 name = "zeddy"
 version = "0.1.0"
 edition = "2021"
-repository = "https://github.com/4gboframram/zeddy"
+repository = "https://github.com/lilyyy411/zeddy"
 
 [dependencies]
 anyhow = "1.0.92"
