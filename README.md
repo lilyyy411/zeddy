@@ -20,6 +20,7 @@ cargo install --path .
 ## CLI
 A helper tool for making Zed themes using a custom KDL format that allows naming colors, reusing components, and much more
 
+```
 Usage: zeddy [OPTIONS] <INFILE> <COMMAND>
 
 Commands:
