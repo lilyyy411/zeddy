@@ -3,7 +3,7 @@ The normal json format for Zed's themes is often unwieldy to edit. It is easy to
 with hex, and when working on multiple themes, you have to copy-paste similar configuration. Overall it is a nightmare to try to
 experiment with different colors as you edit a theme family.
 
-`zed-theme-helper` is here to help! It uses the KDL format and uses simple palette and modifier-driven approach to
+`zeddy` is here to help! It uses the KDL format and uses simple palette and modifier-driven approach to
 allow creating themes in a much easier, less error-prone, and much more readable way. Not only that, but it also provides
 a hot swap feature to make it so you can have live previews while editing.
 
